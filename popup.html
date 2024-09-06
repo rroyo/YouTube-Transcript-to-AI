@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>YouTube Transcript to AI</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="youtube-warning">This extension only works on YouTube video pages.</div>
+    <div id="app-title">YouTube<br />Transcript to AI</div>
+    <div id="buttons">
+      <button id="chatgpt-btn">ChatGPT</button>
+      <button id="claude-btn">Claude</button>
+    </div>
+    <div id="prompt-section">
+      <h3 id="stored-prompts-subtitle">Stored Prompts</h3>
+      <div id="prompt-select-container">
+        <select id="prompt-select"></select>
+        <button id="delete-prompt"><image src="images/trash-bin.svg"></image></button>
+      </div>
+      <button id="make-default-btn">Make Default</button>
+      <input type="text" id="new-prompt-title" placeholder="Prompt title" />
+      <textarea id="new-prompt-text" placeholder="Prompt text"></textarea>
+      <button id="save-prompt">Save Prompt</button>
+      <p id="follow-me">
+        How do you use this tool? Got suggestions?<br />
+        I'd ❤️ to hear from you,
+        <a href="https://x.com/intent/follow?screen_name=RamonBuilds" target="_blank"
+          >find me on X</a
+        >.
+      </p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
