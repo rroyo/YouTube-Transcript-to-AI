@@ -12,16 +12,13 @@
       "js": [ "ai_chat_content.js" ],
       "matches": [ "https://chatgpt.com/*", "https://claude.ai/*" ]
    } ],
-   "description": "Send YouTube transcripts to ChatGPT or Claude (Gemini coming soon)",
-   "differential_fingerprint": "1.a46198fb8e71d0884e07beee5f058b3ea136cdfad84c37c666edc0cc19fd5d54",
+   "description": "Send YouTube transcripts to ChatGPT or Claude",   
    "host_permissions": [ "https://www.youtube.com/*", "https://chatgpt.com/*", "https://claude.ai/*, https://gemini.google.com/*" ],
    "icons": {
       "48": "images/48.png"
-   },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyU76HtDXe6VpEIbReeco5SApXDK+uTca4Y6uEjA5AMaNh4fc80I0VCFcyqgi83L4c0BNT4fY9dvaRk5K1JVaFtDAjDP9XBibUzqVHJrVEXBG4IBkbfTTgVqS8wGxuHnKAt2AbxjA3Dz0MlCqT0AuxTtsuf/MLYs7xxs/13zg+Edhsk6l7O+E0qVk86jPqI/QCaPKqUDB3j72SBzUx7HkOQy5TwqWiLQpdgai3FrPzQ61EQS0CUpaT/fTFsfH42aZUAqmOjTiW3/DU9XZRNCPfMidwSOKqxpnKuGSDLWmLFxe0upN/SgQsYxf9zG5VftdRv+5WgJv6p60VKROKqB2cQIDAQAB",
+   },   
    "manifest_version": 3,
    "name": "YouTube Transcript to AI",
-   "permissions": [ "activeTab", "storage" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
+   "permissions": [ "activeTab", "storage" ],   
    "version": "1.0.1.1"
 }
